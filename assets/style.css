@@ -1,16 +1,26 @@
 body {
     width: 100%;
-    padding: 2rem 0;
+    padding: 2rem 0 6rem 0;
     margin: 0;
     font-size: 16px;
     font-family: "suisse", arial, sans-serif;
     background-color: #f6f3ec;
+    background-image: url("img/bg-temp.jpg");
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 50rem auto;
     color: #1c1f5d;
 }
 
 header, main {
-    max-width: 50rem;
+    max-width: 60rem;
     margin: 0 auto;
+    padding: 0 2rem;
+}
+
+article {
+    padding-top: 3rem;
+    max-width: 35rem;
 }
 
 @font-face {
