@@ -1,0 +1,21 @@
+body {
+    width: 100%;
+    padding: 2rem 0;
+    margin: 0;
+    font-size: 16px;
+    font-family: "suisse", arial, sans-serif;
+    background-color: #f6f3ec;
+}
+
+header, main {
+    max-width: 50rem;
+    margin: 0 auto;
+}
+
+@font-face {
+    font-family: "suisse";
+    src: url("fonts/SuisseIntl-Regular-WebTrial.eot") format("eot");
+    src: url("fonts/SuisseIntl-Regular-WebTrial.ttf") format("ttf");
+    src: url("fonts/SuisseIntl-Regular-WebTrial.woff") format("woff2");
+    src: url("fonts/SuisseIntl-Regular-WebTrial.woff2") format("woff");
+}
