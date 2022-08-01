@@ -14,12 +14,20 @@ body {
 
 header {
     color: #f6f3ec;
+}
+
+header svg {
+    -webkit-filter: drop-shadow( 5px 5px 5px #1c1f5d);
+    filter: drop-shadow( 5px 5px 5px #1c1f5d);
     transition: ease all .5s;
 }
 
 @media only screen and (min-width: 785px) {
-    header {
+    header svg {
         color: #1c1f5d;
+        -webkit-filter: none;
+        filter: none;
+        transition: ease all .5s;
     }
 }
 
