@@ -12,9 +12,14 @@ body {
     color: #1c1f5d;
 }
 
-@media only screen and (min-width: 1100px) {
-    body {
-        background-size: 50rem auto;
+header {
+    color: #f6f3ec;
+    transition: ease all .5s;
+}
+
+@media only screen and (min-width: 785px) {
+    header {
+        color: #1c1f5d;
     }
 }
 
