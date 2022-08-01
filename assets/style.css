@@ -12,8 +12,16 @@ body {
     color: #1c1f5d;
 }
 
+header, main, footer {
+    max-width: 60rem;
+    margin: 0 auto;
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+
 header {
     color: #f6f3ec;
+    padding-bottom: 1.5rem;
 }
 
 header svg {
@@ -22,7 +30,7 @@ header svg {
     transition: ease all .5s;
 }
 
-@media only screen and (min-width: 785px) {
+@media only screen and (min-width: 980px) {
     header svg {
         color: #1c1f5d;
         -webkit-filter: none;
@@ -31,20 +39,31 @@ header svg {
     }
 }
 
-header, main, footer {
-    max-width: 60rem;
-    margin: 0 auto;
-    padding: 0 2rem;
-}
-
 footer {
     padding-top: 3rem;
 }
 
-
 article {
-    padding-top: 3rem;
+    padding: 1rem 0;
     max-width: 35rem;
+    transition: ease all .5s;
+}
+
+.intro {
+    background-color: rgba(246, 243, 236, .8);
+    border-radius: 1rem;
+    z-index: 5;
+    margin-left: -1.5rem;
+    margin-right: -1.5rem;
+    padding: 1rem 1.5rem;
+}
+
+@media only screen and (min-width: 1600px) {
+    .intro {
+        background-color: transparent;
+        transition: ease all .5s;
+        z-index: 5;
+    }
 }
 
 @font-face {
