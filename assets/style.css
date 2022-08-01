@@ -5,10 +5,10 @@ body {
     margin: 0;
     font-size: 16px;
     font-family: "suisse", arial, sans-serif;
-    background-image: url("img/bg-temp.jpg");
+    background-image: url("img/roots-bg.jpg");
     background-repeat: no-repeat;
     background-position: top right;
-    background-size: 30rem auto;
+    background-size: 50rem auto;
     color: #1c1f5d;
 }
 
