@@ -1,15 +1,21 @@
 body {
+    background-color: #f6f3ec;
     width: 100%;
     padding: 2rem 0 6rem 0;
     margin: 0;
     font-size: 16px;
     font-family: "suisse", arial, sans-serif;
-    background-color: #f6f3ec;
     background-image: url("img/bg-temp.jpg");
     background-repeat: no-repeat;
     background-position: top right;
-    background-size: 50rem auto;
+    background-size: 30rem auto;
     color: #1c1f5d;
+}
+
+@media only screen and (min-width: 1100px) {
+    body {
+        background-size: 50rem auto;
+    }
 }
 
 header, main {
